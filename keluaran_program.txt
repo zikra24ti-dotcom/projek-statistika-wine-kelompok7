@@ -1,0 +1,77 @@
+=== PEMERIKSAAN DATA ===
+Dimensi data  : (1599, 12)
+Nilai kosong  : 0
+Baris duplikat: 240
+fixed acidity           float64
+volatile acidity        float64
+citric acid             float64
+residual sugar          float64
+chlorides               float64
+free sulfur dioxide     float64
+total sulfur dioxide    float64
+density                 float64
+pH                      float64
+sulphates               float64
+alcohol                 float64
+quality                   int64
+dtype: object 
+
+=== STATISTIKA DESKRIPTIF ===
+Variabel       alcohol  volatile acidity   quality
+N             1599.000          1599.000  1599.000
+Mean            10.423             0.528     5.636
+Median          10.200             0.520     6.000
+Modus            9.500             0.600     5.000
+Min              8.400             0.120     3.000
+Max             14.900             1.580     8.000
+Rentang          6.500             1.460     5.000
+Std (sampel)     1.066             0.179     0.808
+Varians          1.136             0.032     0.652
+Q1               9.500             0.390     5.000
+Q3              11.100             0.640     6.000
+IQR              1.600             0.250     1.000
+Skewness         0.861             0.672     0.218 
+
+=== DISTRIBUSI FREKUENSI QUALITY ===
+         Frekuensi  Proporsi  Persentase (%)
+quality                                     
+3               10    0.0063            0.63
+4               53    0.0331            3.31
+5              681    0.4259           42.59
+6              638    0.3990           39.90
+7              199    0.1245           12.45
+8               18    0.0113            1.13 
+
+=== PROBABILITAS EMPIRIS ===
+P(quality >= 7) = 0.1357 (13.57%)
+P(quality = 6) = 0.3990 (39.90%)
+P(quality <= 5) = 0.4653 (46.53%)
+P(quality >= 6) = 0.5347 (53.47%)
+
+=== MEAN PER SKOR QUALITY ===
+         alcohol  volatile acidity
+quality                           
+3          9.955             0.885
+4         10.265             0.694
+5          9.900             0.577
+6         10.630             0.497
+7         11.466             0.404
+8         12.094             0.423
+
+=== MEDIAN PER SKOR QUALITY ===
+         alcohol  volatile acidity
+quality                           
+3          9.925             0.845
+4         10.000             0.670
+5          9.700             0.580
+6         10.500             0.490
+7         11.500             0.370
+8         12.150             0.370
+
+=== PENCILAN (1,5 x IQR) ===
+alcohol: batas 7.100 - 13.500, pencilan = 13
+volatile acidity: batas 0.015 - 1.015, pencilan = 19
+
+Jumlah kelas Sturges: 11.64
+
+Selesai. Gambar dan tabel tersimpan di folder gambar/

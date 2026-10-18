@@ -1,0 +1,426 @@
+{
+ "n": 1599,
+ "duplikat": 240,
+ "kosong": 0,
+ "desk": [
+  {
+   "Variabel": "alcohol",
+   "N": 1599,
+   "Mean": 10.423,
+   "Median": 10.2,
+   "Modus": 9.5,
+   "Min": 8.4,
+   "Max": 14.9,
+   "Rentang": 6.5,
+   "Std (sampel)": 1.066,
+   "Varians": 1.136,
+   "Q1": 9.5,
+   "Q3": 11.1,
+   "IQR": 1.6,
+   "Skewness": 0.861
+  },
+  {
+   "Variabel": "volatile acidity",
+   "N": 1599,
+   "Mean": 0.528,
+   "Median": 0.52,
+   "Modus": 0.6,
+   "Min": 0.12,
+   "Max": 1.58,
+   "Rentang": 1.46,
+   "Std (sampel)": 0.179,
+   "Varians": 0.032,
+   "Q1": 0.39,
+   "Q3": 0.64,
+   "IQR": 0.25,
+   "Skewness": 0.672
+  },
+  {
+   "Variabel": "quality",
+   "N": 1599,
+   "Mean": 5.636,
+   "Median": 6.0,
+   "Modus": 5.0,
+   "Min": 3.0,
+   "Max": 8.0,
+   "Rentang": 5.0,
+   "Std (sampel)": 0.808,
+   "Varians": 0.652,
+   "Q1": 5.0,
+   "Q3": 6.0,
+   "IQR": 1.0,
+   "Skewness": 0.218
+  }
+ ],
+ "frek": [
+  {
+   "quality": 3,
+   "Frekuensi": 10,
+   "Proporsi": 0.0063,
+   "Persentase (%)": 0.63
+  },
+  {
+   "quality": 4,
+   "Frekuensi": 53,
+   "Proporsi": 0.0331,
+   "Persentase (%)": 3.31
+  },
+  {
+   "quality": 5,
+   "Frekuensi": 681,
+   "Proporsi": 0.4259,
+   "Persentase (%)": 42.59
+  },
+  {
+   "quality": 6,
+   "Frekuensi": 638,
+   "Proporsi": 0.399,
+   "Persentase (%)": 39.9
+  },
+  {
+   "quality": 7,
+   "Frekuensi": 199,
+   "Proporsi": 0.1245,
+   "Persentase (%)": 12.45
+  },
+  {
+   "quality": 8,
+   "Frekuensi": 18,
+   "Proporsi": 0.0113,
+   "Persentase (%)": 1.13
+  }
+ ],
+ "prob": {
+  "P(quality >= 7)": [
+   217,
+   0.1357098186366479
+  ],
+  "P(quality = 6)": [
+   638,
+   0.3989993746091307
+  ],
+  "P(quality <= 5)": [
+   744,
+   0.4652908067542214
+  ],
+  "P(quality >= 6)": [
+   855,
+   0.5347091932457786
+  ]
+ },
+ "rata": [
+  {
+   "quality": 3,
+   "alcohol": 9.955,
+   "volatile acidity": 0.885
+  },
+  {
+   "quality": 4,
+   "alcohol": 10.265,
+   "volatile acidity": 0.694
+  },
+  {
+   "quality": 5,
+   "alcohol": 9.9,
+   "volatile acidity": 0.577
+  },
+  {
+   "quality": 6,
+   "alcohol": 10.63,
+   "volatile acidity": 0.497
+  },
+  {
+   "quality": 7,
+   "alcohol": 11.466,
+   "volatile acidity": 0.404
+  },
+  {
+   "quality": 8,
+   "alcohol": 12.094,
+   "volatile acidity": 0.423
+  }
+ ],
+ "median_q": [
+  {
+   "quality": 3,
+   "alcohol": 9.925,
+   "volatile acidity": 0.845
+  },
+  {
+   "quality": 4,
+   "alcohol": 10.0,
+   "volatile acidity": 0.67
+  },
+  {
+   "quality": 5,
+   "alcohol": 9.7,
+   "volatile acidity": 0.58
+  },
+  {
+   "quality": 6,
+   "alcohol": 10.5,
+   "volatile acidity": 0.49
+  },
+  {
+   "quality": 7,
+   "alcohol": 11.5,
+   "volatile acidity": 0.37
+  },
+  {
+   "quality": 8,
+   "alcohol": 12.15,
+   "volatile acidity": 0.37
+  }
+ ],
+ "pencilan": {
+  "alcohol": {
+   "batas_bawah": 7.1,
+   "batas_atas": 13.5,
+   "jumlah": 13,
+   "persen": 0.81
+  },
+  "volatile acidity": {
+   "batas_bawah": 0.015,
+   "batas_atas": 1.015,
+   "jumlah": 19,
+   "persen": 1.19
+  }
+ },
+ "kel_alk": [
+  [
+   "8.40 - < 9.00",
+   7,
+   0.44
+  ],
+  [
+   "9.00 - < 9.60",
+   432,
+   27.02
+  ],
+  [
+   "9.60 - < 10.20",
+   357,
+   22.33
+  ],
+  [
+   "10.20 - < 10.80",
+   245,
+   15.32
+  ],
+  [
+   "10.80 - < 11.40",
+   246,
+   15.38
+  ],
+  [
+   "11.40 - < 12.00",
+   150,
+   9.38
+  ],
+  [
+   "12.00 - < 12.60",
+   92,
+   5.75
+  ],
+  [
+   "12.60 - < 13.20",
+   49,
+   3.06
+  ],
+  [
+   "13.20 - < 13.80",
+   13,
+   0.81
+  ],
+  [
+   "13.80 - < 14.40",
+   7,
+   0.44
+  ],
+  [
+   "14.40 - < 15.00",
+   1,
+   0.06
+  ]
+ ],
+ "kel_va": [
+  [
+   "0.12 - < 0.24",
+   37,
+   2.31
+  ],
+  [
+   "0.24 - < 0.36",
+   235,
+   14.7
+  ],
+  [
+   "0.36 - < 0.48",
+   382,
+   23.89
+  ],
+  [
+   "0.48 - < 0.60",
+   394,
+   24.64
+  ],
+  [
+   "0.60 - < 0.72",
+   349,
+   21.83
+  ],
+  [
+   "0.72 - < 0.84",
+   118,
+   7.38
+  ],
+  [
+   "0.84 - < 0.96",
+   50,
+   3.13
+  ],
+  [
+   "0.96 - < 1.08",
+   25,
+   1.56
+  ],
+  [
+   "1.08 - < 1.20",
+   5,
+   0.31
+  ],
+  [
+   "1.20 - < 1.32",
+   1,
+   0.06
+  ],
+  [
+   "1.32 - < 1.44",
+   2,
+   0.13
+  ],
+  [
+   "1.44 - < 1.56",
+   0,
+   0.0
+  ],
+  [
+   "1.56 - < 1.68",
+   1,
+   0.06
+  ]
+ ],
+ "sturges": 11.64,
+ "semua": [
+  {
+   "variabel": "fixed acidity",
+   "mean": 8.32,
+   "50%": 7.9,
+   "std": 1.741,
+   "min": 4.6,
+   "max": 15.9,
+   "skewness": 0.983
+  },
+  {
+   "variabel": "volatile acidity",
+   "mean": 0.528,
+   "50%": 0.52,
+   "std": 0.179,
+   "min": 0.12,
+   "max": 1.58,
+   "skewness": 0.672
+  },
+  {
+   "variabel": "citric acid",
+   "mean": 0.271,
+   "50%": 0.26,
+   "std": 0.195,
+   "min": 0.0,
+   "max": 1.0,
+   "skewness": 0.318
+  },
+  {
+   "variabel": "residual sugar",
+   "mean": 2.539,
+   "50%": 2.2,
+   "std": 1.41,
+   "min": 0.9,
+   "max": 15.5,
+   "skewness": 4.541
+  },
+  {
+   "variabel": "chlorides",
+   "mean": 0.087,
+   "50%": 0.079,
+   "std": 0.047,
+   "min": 0.012,
+   "max": 0.611,
+   "skewness": 5.68
+  },
+  {
+   "variabel": "free sulfur dioxide",
+   "mean": 15.875,
+   "50%": 14.0,
+   "std": 10.46,
+   "min": 1.0,
+   "max": 72.0,
+   "skewness": 1.251
+  },
+  {
+   "variabel": "total sulfur dioxide",
+   "mean": 46.468,
+   "50%": 38.0,
+   "std": 32.895,
+   "min": 6.0,
+   "max": 289.0,
+   "skewness": 1.516
+  },
+  {
+   "variabel": "density",
+   "mean": 0.997,
+   "50%": 0.997,
+   "std": 0.002,
+   "min": 0.99,
+   "max": 1.004,
+   "skewness": 0.071
+  },
+  {
+   "variabel": "pH",
+   "mean": 3.311,
+   "50%": 3.31,
+   "std": 0.154,
+   "min": 2.74,
+   "max": 4.01,
+   "skewness": 0.194
+  },
+  {
+   "variabel": "sulphates",
+   "mean": 0.658,
+   "50%": 0.62,
+   "std": 0.17,
+   "min": 0.33,
+   "max": 2.0,
+   "skewness": 2.429
+  },
+  {
+   "variabel": "alcohol",
+   "mean": 10.423,
+   "50%": 10.2,
+   "std": 1.066,
+   "min": 8.4,
+   "max": 14.9,
+   "skewness": 0.861
+  },
+  {
+   "variabel": "quality",
+   "mean": 5.636,
+   "50%": 6.0,
+   "std": 0.808,
+   "min": 3.0,
+   "max": 8.0,
+   "skewness": 0.218
+  }
+ ],
+ "p_alk_9_11": 74.0,
+ "p_va_04_07": 60.5
+}
