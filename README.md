@@ -22,12 +22,15 @@ Data sekunder: [Red Wine Quality - Kaggle](https://www.kaggle.com/datasets/uciml
 (Cortez et al., 2009). Data disimpan pada `3TIE_07_WineQuality-Red.xlsx` (sheet `Dataset`) tanpa mengubah nilai asli.
 
 ## Struktur Repository
+## Struktur Repository
 ```
 .
 ├── analisis_wine.py              # program analisis (statistik deskriptif, probabilitas, grafik)
 ├── 3TIE_07_WineQuality-Red.xlsx  # dataset
 ├── requirements.txt              # pustaka Python yang dibutuhkan
-└── gambar/                       # keluaran program (grafik, tabel CSV, hasil JSON, log keluaran)
+├── *.png                         # grafik, cuplikan dataset, dan tangkapan kode/keluaran
+├── *.csv, hasil_analisis.json    # tabel hasil perhitungan
+└── keluaran_program.txt          # log keluaran program
 ```
 
 ## Cara Menjalankan
